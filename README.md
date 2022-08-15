@@ -1,16 +1,4 @@
-# Repositorio de clase N6B-ID
-
-## Planillas
-
-- [Cuentas GitHub](https://docs.google.com/spreadsheets/d/1tlvqIJEUhxOXTqyenpmCspYj8gGaGEK2kJDf7lOuZCM/edit?usp=sharing)
-- [Consultas obligatorio](https://docs.google.com/spreadsheets/d/1zIbpWitMnuoEaFY0hPFPnt-g7VSdDVA-3eRoS13amo8/edit?usp=sharing)
-
-## Contacto
-
-- Email: [fierrodilorenzo@gmail.com](mailto:fierrodilorenzo@gmail.com)
-- Grupo whatsapp: [Link](https://chat.whatsapp.com/GC2qiHTsR4C0Cdalh6CPzt)
-
----
+# Bienvenidos a Diseño de Aplicaciones 2
 
 ## Introducción
 
@@ -18,49 +6,59 @@ Este repositorio tiene como objetivo servir de apoyo a las clases de tecnología
 
 En el van a encontrar tanto material teórico y enlaces a documentos, como códigos de ejemplo que serán de utilidad para la realización del obligatorio.
 
-El código que encontraran aquí va a ser construido clase a clase. Por supuesto no va a ser perfecto, así que es recomendable tomarlo con cuidado y aplicarlo de la forma más conveniente.
 
-### Herramientas necesarias para este curso
+## Docentes
 
-- [.NET Core](https://dotnet.microsoft.com/download)
+- Nicolás Fierro [nicolas@jinkanna.com](mailto:nicolas@jinkanna.com)
+- Alexander Wieler [alexander@jinkanna.com](alexander@jinkanna.com) 
+- Pablo Benitez [PB179924@fi365.ort.edu.uy](mailto:PB179924@fi365.ort.edu.uy)(solo M6A)
+- Ignacio Harretche [harretcheignacio@gmail.com](mailto:harretcheignacio@gmail.com)(solo M6C)
+
+## Herramientas necesarias para este curso
+
+- [.NET Core](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) / [SQL Server para MAC](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash)
+- [SQL Server](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads?rtc=1) / [SQL Server para MAC](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash) /  [SQL Server para MAC-M1](https://medium.com/geekculture/how-to-install-sql-server-in-mac-m1-41121e110214)
 - [Postman](https://www.postman.com/)
 - [Angular](https://angular.io/)
 - [Node](https://nodejs.org/es/)
 - [Git](https://git-scm.com/)
-- [Instalar Docker y SQL Server en macOS](Clases/InstalacionSQLserverMacOS.md)
+- [Instalar Docker y SQL Server en macOS](Clases/Guias/InstalacionSQLserverMacOS.md)
 
----
+### Links de extension para VSC
+ - [C# for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) Extensión que facilita el desarrollo en C# con Visual Studio Code.
+ - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) Extensión que facilita el desarrollo con TypeScript en Visual Studio Code.
+ - [NuGet Gallery](https://marketplace.visualstudio.com/items?itemName=patcx.vscode-nuget-gallery) Extension para tener la galeria de librerias en VSC
+ - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Extension que sirve para mostrar y codificar de a pares
+ - [C# Estensions](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) Extension para crear archivos mas facil
 
-## Clases
+### Cuentas Github
 
-1. [Comandos .Net Core](/Clases/ComandosNetCore.md)
-2. [Introducción a Web API](/Clases/APIsREST.md)
-3. [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
-4. [Inyección de dependencias](/Clases/InyeccionDependencias.md)
-5. [Introducción a mocking](/Clases/Mocking.md)
-6. [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
-7. [Filters](/Clases/Filters.md)
-8. [Reflection](/Clases/Reflection.md)
-9. [Angular](/Clases/Angular.md)
+Es necesario para realizar el obligatorio que ingresen su usuario de github en el excel que corresponda.
 
-## Ejemplos
+- [Usuarios GitHub M6A](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/EW4GosxFhVBLkEvwrBZfBWEBPsbpq5lkA3a06BFj2JOuKg?e=ajMQpI)
+- [Usuarios GitHub M6C](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=SOJuYz)
 
-1. [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
-2. [Ejemplo de mocking](/Ejemplos/Mocking)
-3. [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
-4. [Ejemplo filters](/Ejemplos/EjemploFilters)
-5. [Ejemplos Reflection](/Ejemplos/Reflection)
-6. [Ejemplo Angular](/Ejemplos/Angular)
+## Parte 1: Backend.Net Core WebApi
+- Tema 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
+          // [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md)
+          // [Comandos Base para crear y copilar un proyecto](/Clases/Clase_01-Intro/1.3-ComandosNetCore.md)
+          // ([Otras lecturas](https://cheerful-nation-1ca.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
+- Tema 2 - [WebApi](https://cheerful-nation-1ca.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
+          // [Ejemplo](/Clases/Clase_2-WebApi/Clase_2-Ejemplo-WebApi.md)
+- Tema 3 - [Inyección de dependencias](https://cheerful-nation-1ca.notion.site/Inyecci-n-de-dependencia-084456a1937f40f4b6e767711c7ca1c9)
+- Tema 4 - [Testing](https://cheerful-nation-1ca.notion.site/Unit-test-4554cc7a49bd4fe4a06c509de80ac77f)
+- Tema 5 - [Entity FrameWork](https://cheerful-nation-1ca.notion.site/EF-CORE-c9c7991c5c9f414f8aa6f2abb2d6a83f)
+- Tema 6 - [Filters](https://cheerful-nation-1ca.notion.site/Filtros-11ba7df748cd4240aba28ded55e55076)
+          // [Resumen Filters](/Clases/Clase_6-Filters/Filters.md)
 
-<!-- ## Deploy
+## Parte 2.1:  
+- Tema 7 - [Reflection](/Clases/Clase_9-Reflection/Reflection.md)
 
-- [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
-- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255) -->
+## Parte 2: FrontEnd - Angular 
+- Tema 8 - [SPA - Introducción a Angular](/Clases/Clase_10-SPA&Angular/Angular_y_las_SPAs.md)
+          // [Resumen de Angular](/Clases/Angular.md)
 
----
 
-## Docente
-
-- :space_invader: Nicolás Fierro
+## Aclaración
+- El código que se encuentra está escrito en un ámbito de clase, es incompleto y seguramente con errores. No se debe tomar como implementación final.
