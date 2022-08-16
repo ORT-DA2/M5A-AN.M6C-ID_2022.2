@@ -11,7 +11,7 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 
 - Nicolás Fierro [nicolas@jinkanna.com](mailto:nicolas@jinkanna.com)
 - Alexander Wieler [alexander@jinkanna.com](alexander@jinkanna.com) 
-- Pablo Benitez [PB179924@fi365.ort.edu.uy](mailto:PB179924@fi365.ort.edu.uy)(solo M6A)
+- Pablo Benitez [PB179924@fi365.ort.edu.uy](mailto:PB179924@fi365.ort.edu.uy)(solo M6C-1)
 - Ignacio Harretche [harretcheignacio@gmail.com](mailto:harretcheignacio@gmail.com)(solo M6C)
 
 ## Herramientas necesarias para este curso
