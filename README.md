@@ -37,7 +37,7 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 
 Es necesario para realizar el obligatorio que ingresen su usuario de github en el excel que corresponda.
 
-- [Usuarios GitHub M6A](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/EW4GosxFhVBLkEvwrBZfBWEBPsbpq5lkA3a06BFj2JOuKg?e=ajMQpI)
+- [Usuarios GitHub M6C-1](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/EW4GosxFhVBLkEvwrBZfBWEBPsbpq5lkA3a06BFj2JOuKg?e=ajMQpI)
 - [Usuarios GitHub M6C](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=SOJuYz)
 
 ## Parte 1: Backend.Net Core WebApi
