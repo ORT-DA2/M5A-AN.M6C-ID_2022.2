@@ -1,0 +1,34 @@
+<p>{{ names }}</p>
+
+<ul>
+  <li *ngFor="let name of (names | filtro : inputValue)" (click)="clickList(name)">
+    {{name}}
+  </li>
+</ul>
+
+<h3> Filtrar: {{inputValue}} </h3>>
+
+<ng-container *ngIf="condition then ok; else fail"></ng-container>
+  <ng-template #ok>
+    Se cumple la condición
+  </ng-template>
+  <ng-template #fail>
+    No se cumple la condición
+  </ng-template>
+
+  <ng-template [ngIf]="condition">
+    <h4>Muestro</h4>
+  </ng-template>
+
+  <input [(ngModel)]="inputValue" (focus)="focus($event)">
+
+  <p>Variable: {{inputValue}}</p>
+
+  <h3>Pipes:</h3>
+  <p>uppercase: {{inputValue | uppercase}}</p>
+  <p>lowercase: {{inputValue | lowercase}}</p>
+  <p>titlecase: {{inputValue | titlecase}}</p>
+
+  <app-segundo (textSent)="modifyEmit($event)" [text]="inputValue"></app-segundo>
+
+  <p>Texto emitido: {{textEmited}}</p>

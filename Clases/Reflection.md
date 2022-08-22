@@ -31,6 +31,6 @@ Por ejemplo podríamos hacer que el usuario elija (a medida que está usando la 
 
 Lo que es importante para lograr el desacoplamiento de tipos externos, es que nuestro código referencie a una Interfaz, que es la que toda .dll externa va a tener que cumplir. Tiene que existir entonces ese contrato previo, de lo contrario, no sería posible saber de antemano qué métodos llamar de las librerías externas que poseen clases para usar loggers.
 
-## Diagramas Clases y de ejemplo
+## Diagramas Clases y Paquetes Ejemplo [Ejemplo](../Codigo/Reflection)
 
-![IMG](DiagramaReflection.png)
+![IMG](/DiagramaReflection.png)

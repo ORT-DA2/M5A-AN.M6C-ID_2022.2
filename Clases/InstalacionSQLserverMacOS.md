@@ -77,7 +77,7 @@ La imagen de docker a usar.
 
 ## **Errores**
 
-En caso de ver el siguiente error
+En caso de ver el siguiente error 
 
 ```bash
 Microsoft(R) SQL Server(R) setup failed with error code 1. Please check the setup log in /var/opt/mssql/log for more information.
@@ -173,7 +173,7 @@ Esto nos crea la siguiente base de datos en la cual podemos realizar inserts y c
 **ConnectionString**
 
 ```sql
-"Server=127.0.0.1,1433;Database=VidlyDb;Trusted_Connection=false;MultipleActiveResultSets=true;User=sa;Password=reallyStrongPwd123;"
+"Server=127.0.0.1,1433;Database=VidlyDb;Trusted_Connection=false;MultipleActiveResultSets=true;User=sa;Password=reallyStrongPwd123;" 
 ```
 
 Importante tener el Trusted_Connection=false ya que sino no nos va a funcionar, esto hace que tengamos que poner nuestras credenciales explícitamente en el connectionString.

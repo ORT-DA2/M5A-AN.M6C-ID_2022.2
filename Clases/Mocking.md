@@ -1,4 +1,4 @@
-
+﻿
 # Mocking
 
 Vamos a estudiar cómo podemos probar nuestro código evitando probar también sus dependencias, asegurándonos que los errores se restringen únicamente a la sección de código que efectivamente queremos probar. Para ello, utilizaremos una herramienta que nos permitirá crear Mocks. La herramienta será Moq.
@@ -29,14 +29,68 @@ Cuando hacemos pruebas unitarias, queremos probar objetos y la forma en que esto
 
 Hay ciertos casos en los que incluso los mocks son realmente la forma más adecuada de llevar a cabo pruebas unitarias.
 
+## Modificacion de nuestro codigo actual
+
+Para poder hacer hacer mocks de las dependencias de un objeto que buscamos testear, es necesario cambiar el codigo que tenemos actualmente. Primero, analizaremos como es que se definen las dependencias en nuestro codigo. Tomemos una clase llamada  _StudentLogic_  que estaría  `Moodle.BusinessLogic`. Esta clase depende de  _StudentRepository_  de  `Moodle.DataAccess`. Como definimos esta dependencia? Simplemente en el constructor de  _StudentLogic_  creamos una nueva instancia.
+
+```csharp
+    private StudentRepository repository;
+
+    public StudentLogic() {
+        repository = new StudentRepository();
+    }
+```
+    
+El problema que tiene este enfoque es que cuando creamos una instancia de  _StudentLogic_, se creara una instancia  **real**  de  _StudentRepository_, y no podremos inyectarle un instancia mockeada del repository. La solución (por ahora) es agregar otro constructor que reciba el  _StudentRepository_. Sin embargo, esto no es suficiente: ya que no debemos recibir por parametro una instancia real del repositorio. Debemos crear una interfaz, la cual el repositorio implemente.
+
+```csharp
+private IStudentRepository repository;
+
+public StudentLogic(IStudentRepository repository = null) 
+{
+    if (repository == null) 
+    {
+	    this.repository = new StudentRepository();
+    } 
+    else 
+    {
+	    this.repository = repository;
+    }
+}
+```
+ 
+
+La interfaz  _IStudentRepository_  contendra los mismos metodos que tenia nuestro  _StudentRepository_. Esta tambien sera implementada por los mocks que crearemos mas adelante, lo cual nos permite poder crear un  _StudentLogic_  con el mock! Debemos repetir esto para todas las clases que dependan de otra clase. Por ejemplo, StudentController debera poder recibir en el constructor una interfaz que sea implementada  _StudentLogic_  también.
+
+Al hacer esto, no estamos atando la instancia a un objeto en particular, si no que estamos  **inyectando**  la dependencia. Como vimos en la clase anterior. Todo objeto que queramos mockear, debera tener una interfaz bien definida.
+
+[![alt text](https://camo.githubusercontent.com/fb50030bb43d41299a6afed9a27b89655b0b0c9d/687474703a2f2f7475746f7269616c732e6a656e6b6f762e636f6d2f696d616765732f6a6176612d756e69742d74657374696e672f74657374696e672d776974682d64692d636f6e7461696e6572732e706e67)](https://camo.githubusercontent.com/fb50030bb43d41299a6afed9a27b89655b0b0c9d/687474703a2f2f7475746f7269616c732e6a656e6b6f762e636f6d2f696d616765732f6a6176612d756e69742d74657374696e672f74657374696e672d776974682d64692d636f6e7461696e6572732e706e67)
+
+En consecuencia, generamos un  **bajo acoplamiento**  entre una clase y sus dependencias, lo cual nos facilita utilizar un framework de mocking. Especialmente para aquellos objetos que dependen de un recurso externo (una red, un archivo o una base de datos).
+
+A pesar de que aun se esta instanciando la clase directamente en el constructor, veremos mas adelante como podemos remover eso. Iremos aun mas adelante y removeremos la instanciacion en el constructor. Por ahora, hacemos lo suficiente para que podamos hacer los tests.
+
+Debemos hacer esto para todas las dependencias que tengamos.
+
 ## Empezando con Moq
 
-Para comenzar a utilizar Moq. Para esto, crearemos un nuevo proyecto de MSTests y le instalamos Moq (paquete NuGet).
+## WebApi
+
+Para comenzar a utilizar Moq, comenzaremos probando nuestro paquete de controllers de la WebApi. Para esto, crearemos un nuevo proyecto de MSTests (Moodle.WebApi.Tests) y le instalamos Moq. 
 
 ```
-dotnet new mstest -n EjemploTest
-cd EjemploTest
+dotnet new mstest -n Moodle.WebApi.Test
+cd Moodle.WebApi.Test
 dotnet add package Moq
+```
+
+Luego al proyecto de tests le agregaremos las referencias a WebApi, Domain y BusinessLogic.Interface
+
+```
+dotnet add reference ../Moodle.WebApi
+dotnet add reference ../Moodle.Domain
+dotnet add reference ../Moodle.BusinessLogic
+
 ```
 
 Una vez que estos pasos estén prontos, podemos comenzar a realizar nuestro primer test. Creamos entonces la clase  `StudentControllerTests`, y en ella escribimos el primer  `TestMethod`.
@@ -72,7 +126,7 @@ public void CreateValidStudentOkTest()
 {
 	Student student = new Student()
 	{
-	    Name = "Ernesto",
+	    Name = "Daniel",
 	    StudentNumber = "123456",
 	    Courses = new List<Course>()
 	    {
@@ -86,7 +140,7 @@ public void CreateValidStudentOkTest()
 	
 	ModelStudent modelStudent = new ModelStudent()
 	{
-	    Name = "Ernesto",
+	    Name = "Daniel",
 	    StudentNumber = "123456",
 	    Courses = new List<ModelCourseBasicInfo>()
 	    {
@@ -151,7 +205,7 @@ public void CreateValidHomework()
 {
     Student student = new Student()new Student()
     {
-	    Name = "Ernesto",
+	    Name = "Daniel",
 	    StudentNumber = "123456",
 	    Courses = new List<Course>()
 	    {
@@ -165,7 +219,7 @@ public void CreateValidHomework()
 	
 	ModelStudent modelStudent = new ModelStudent()
 	{
-		Name = "Ernesto",
+		Name = "Daniel",
 	    StudentNumber = "123456",
 	    Courses = new List<ModelCourseBasicInfo>()
 	    {
@@ -250,7 +304,7 @@ public void CreateValidStudentTest()
 {
     Student student = new Student()new Student()
     {
-	    Name = "Ernesto",
+	    Name = "Daniel",
 	    StudentNumber = "123456",
 	    Courses = new List<Course>()
 	    {
