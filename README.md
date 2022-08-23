@@ -43,7 +43,7 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 ## Parte 1: Backend.Net Core WebApi
 - Tema 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
           // [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md)
-          // [Comandos Base para crear y copilar un proyecto]([/Clases/Clase_01-Intro/1.3-ComandosNetCore.md](https://github.com/ORT-DA2/N6B-ID.2021.1/blob/master/Clases/ComandosNetCore.md))
+          // [Comandos Base para crear y copilar un proyecto]([/Clases/Clase_01-Intro/1.3-ComandosNetCore.md](https://github.com/ORT-DA2/N6B-ID.2021.1/blob/master/Clases/ComandosNetCore.md)
           // ([Otras lecturas](https://calm-bloom-3b1.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
 - Tema 2 - [WebApi](https://calm-bloom-3b1.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
           // [Ejemplo](/Clases/Clase_2-WebApi/Clase_2-Ejemplo-WebApi.md)
