@@ -43,6 +43,11 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 
 ## Clases: 
 - Clase 1
+Especificar ubicacion de dotnet core
+sudo ln -s [path] 
+Example:
+sudo ln -s /usr/local/share/dotnet/x64/dotnet /usr/local/bin/
+
 - Clase 2
 [Testing](https://www.notion.so/Guia-Moq-Pruebas-unitarias-DIY-8afba4f27ca641bdba18764322b6128c)
 
