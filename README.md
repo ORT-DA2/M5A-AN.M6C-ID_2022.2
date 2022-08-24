@@ -26,7 +26,7 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 - [Instalar Docker y SQL Server en macOS](Clases/Guias/InstalacionSQLserverMacOS.md)
 
 ### Links de extension para VSC
- - [C# for Visual Studio](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) Extensión que facilita el desarrollo en C# con Visual Studio Code.
+ - [C# for Visual Studio (**v1.24.4**)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) Extensión que facilita el desarrollo en C# con Visual Studio Code.
  - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) Extensión que facilita el desarrollo con TypeScript en Visual Studio Code.
  - [NuGet Gallery](https://marketplace.visualstudio.com/items?itemName=patcx.vscode-nuget-gallery) Extension para tener la galeria de librerias en VSC
  - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Extension que sirve para mostrar y codificar de a pares
@@ -49,14 +49,14 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 ## Parte 1: Backend.Net Core WebApi
 - Tema 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
           // [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md)
-          // [Comandos Base para crear y copilar un proyecto](/Clases/Clase_01-Intro/1.3-ComandosNetCore.md)
-          // ([Otras lecturas](https://cheerful-nation-1ca.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
-- Tema 2 - [WebApi](https://cheerful-nation-1ca.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
+          // [Comandos Base para crear y copilar un proyecto](https://github.com/ORT-DA2/N6B-ID.2021.1/blob/master/Clases/ComandosNetCore.md)
+          // ([Otras lecturas](https://calm-bloom-3b1.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
+- Tema 2 - [WebApi](https://calm-bloom-3b1.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
           // [Ejemplo](/Clases/Clase_2-WebApi/Clase_2-Ejemplo-WebApi.md)
-- Tema 3 - [Inyección de dependencias](https://cheerful-nation-1ca.notion.site/Inyecci-n-de-dependencia-084456a1937f40f4b6e767711c7ca1c9)
-- Tema 4 - [Testing](https://cheerful-nation-1ca.notion.site/Unit-test-4554cc7a49bd4fe4a06c509de80ac77f)
-- Tema 5 - [Entity FrameWork](https://cheerful-nation-1ca.notion.site/EF-CORE-c9c7991c5c9f414f8aa6f2abb2d6a83f)
-- Tema 6 - [Filters](https://cheerful-nation-1ca.notion.site/Filtros-11ba7df748cd4240aba28ded55e55076)
+- Tema 3 - [Inyección de dependencias](https://calm-bloom-3b1.notion.site/Inyecci-n-de-dependencia-084456a1937f40f4b6e767711c7ca1c9)
+- Tema 4 - [Testing](https://calm-bloom-3b1.notion.site/Unit-test-4554cc7a49bd4fe4a06c509de80ac77f)
+- Tema 5 - [Entity FrameWork](https://calm-bloom-3b1.notion.site/EF-CORE-c9c7991c5c9f414f8aa6f2abb2d6a83f)
+- Tema 6 - [Filters](https://calm-bloom-3b1.site/Filtros-11ba7df748cd4240aba28ded55e55076)
           // [Resumen Filters](/Clases/Clase_6-Filters/Filters.md)
 
 ## Parte 2.1:  
