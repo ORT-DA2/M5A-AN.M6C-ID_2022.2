@@ -40,6 +40,12 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 - [Usuarios GitHub M6C-1](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/EW4GosxFhVBLkEvwrBZfBWEBPsbpq5lkA3a06BFj2JOuKg?e=ajMQpI)
 - [Usuarios GitHub M6C](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=SOJuYz)
 
+
+## Clases: 
+- Clase 1
+- Clase 2
+[Testing](https://cheerful-nation-1ca.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
+
 ## Parte 1: Backend.Net Core WebApi
 - Tema 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
           // [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md)
