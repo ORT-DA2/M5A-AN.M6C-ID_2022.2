@@ -44,7 +44,7 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 ## Clases: 
 - Clase 1
 - Clase 2
-[Testing](https://cheerful-nation-1ca.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
+[Testing](https://www.notion.so/Guia-Moq-Pruebas-unitarias-DIY-8afba4f27ca641bdba18764322b6128c)
 
 ## Parte 1: Backend.Net Core WebApi
 - Tema 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
