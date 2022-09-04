@@ -1,4 +1,4 @@
-#Filters en NET Core
+# Filters en NET Core
 
 Los filtros o _filters_ nos permiten ejecutar código antes o después de determinadas fases en el procesamiento de una solicitud HTTP. Es decir podes interferir esta solicitud antes o después de que llego a nuestro _Controller_.
 
@@ -20,7 +20,7 @@ Cada tipo de filtro es ejecutado en una fase diferente de la solicitud, es decir
 
 ##### Orden de ejecución de los filtros
 
-![fases](DiagramaFases.png)
+![fases](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters/_static/filter-pipeline-2.png?view=aspnetcore-5.0)
 
 ---
 

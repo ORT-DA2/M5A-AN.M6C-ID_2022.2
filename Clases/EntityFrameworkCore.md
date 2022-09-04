@@ -1,4 +1,4 @@
-# Clase 2 - Entity Framework Core - Code First
+# Entity Framework Core - Code First
 
 ## Paquetes Necesarios
 
