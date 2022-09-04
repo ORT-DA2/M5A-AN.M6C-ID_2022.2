@@ -6,6 +6,7 @@ Este repositorio tiene como objetivo servir de apoyo a las clases de tecnología
 
 En el van a encontrar tanto material teórico y enlaces a documentos, como códigos de ejemplo que serán de utilidad para la realización del obligatorio.
 
+El código que encontraran aquí va a ser construido clase a clase. Por supuesto no va a ser perfecto, así que es recomendable tomarlo con cuidado y aplicarlo de la forma más conveniente.
 
 ## Docentes
 
@@ -15,61 +16,45 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 - Ignacio Harretche [harretcheignacio@gmail.com](mailto:harretcheignacio@gmail.com)(solo M6C)
 
 ## Herramientas necesarias para este curso
-
-- [.NET Core](https://dotnet.microsoft.com/learn/dotnet/hello-world-tutorial/install)
+- [.NET Core](https://dotnet.microsoft.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [SQL Server](https://www.microsoft.com/es-mx/sql-server/sql-server-downloads?rtc=1) / [SQL Server para MAC](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash) /  [SQL Server para MAC-M1](https://medium.com/geekculture/how-to-install-sql-server-in-mac-m1-41121e110214)
+- [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) / [SQL Server para MAC](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash)
 - [Postman](https://www.postman.com/)
 - [Angular](https://angular.io/)
 - [Node](https://nodejs.org/es/)
 - [Git](https://git-scm.com/)
-- [Instalar Docker y SQL Server en macOS](Clases/Guias/InstalacionSQLserverMacOS.md)
-
-### Links de extension para VSC
- - [C# for Visual Studio (**v1.24.4**)](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) Extensión que facilita el desarrollo en C# con Visual Studio Code.
- - [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) Extensión que facilita el desarrollo con TypeScript en Visual Studio Code.
- - [NuGet Gallery](https://marketplace.visualstudio.com/items?itemName=patcx.vscode-nuget-gallery) Extension para tener la galeria de librerias en VSC
- - [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare) Extension que sirve para mostrar y codificar de a pares
- - [C# Extension](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) Extension para crear archivos mas facil
- - [Solution explorer](https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer)
-
-### Cuentas Github
-
-Es necesario para realizar el obligatorio que ingresen su usuario de github en el excel que corresponda.
-
-- [Usuarios GitHub M6C-1](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/EW4GosxFhVBLkEvwrBZfBWEBPsbpq5lkA3a06BFj2JOuKg?e=ajMQpI)
-- [Usuarios GitHub M6C](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=SOJuYz)
-
-
-## Clases: 
-- Clase 1
-Especificar ubicacion de dotnet core
-sudo ln -s [path] 
-Example:
-sudo ln -s /usr/local/share/dotnet/x64/dotnet /usr/local/bin/
-
-- Clase 2
-[Testing](https://www.notion.so/Guia-Moq-Pruebas-unitarias-DIY-8afba4f27ca641bdba18764322b6128c)
-
-## Parte 1: Backend.Net Core WebApi
 - Tema 1 - [Introducción](/Clases/Clase_01-Intro/1.1-Introduccion.md)
-          // [.Net Core](/Clases/Clase_01-Intro/1.2-.NET_Core.md)
-          // [Comandos Base para crear y copilar un proyecto](https://github.com/ORT-DA2/N6B-ID.2021.1/blob/master/Clases/ComandosNetCore.md)
-          // ([Otras lecturas](https://calm-bloom-3b1.notion.site/ASP-NET-Core-a1e2fee147cf44fbb2c6a7f962bd2341))
-- Tema 2 - [WebApi](https://calm-bloom-3b1.notion.site/WEB-API-b460683de96a4d66aed5660a9d4de8bf)
-          // [Ejemplo](/Clases/Clase_2-WebApi/Clase_2-Ejemplo-WebApi.md)
-- Tema 3 - [Inyección de dependencias](https://calm-bloom-3b1.notion.site/Inyecci-n-de-dependencia-084456a1937f40f4b6e767711c7ca1c9)
-- Tema 4 - [Testing](https://calm-bloom-3b1.notion.site/Unit-test-4554cc7a49bd4fe4a06c509de80ac77f)
-- Tema 5 - [Entity FrameWork](https://calm-bloom-3b1.notion.site/EF-CORE-c9c7991c5c9f414f8aa6f2abb2d6a83f)
-- Tema 6 - [Filters](https://calm-bloom-3b1.site/Filtros-11ba7df748cd4240aba28ded55e55076)
-          // [Resumen Filters](/Clases/Clase_6-Filters/Filters.md)
+- [Instalar Docker y SQL Server en macOS](Clases/InstalacionSQLserverMacOS.md)
 
-## Parte 2.1:  
-- Tema 7 - [Reflection](/Clases/Clase_9-Reflection/Reflection.md)
+---
 
-## Parte 2: FrontEnd - Angular 
-- Tema 8 - [SPA - Introducción a Angular](/Clases/Clase_10-SPA&Angular/Angular_y_las_SPAs.md)
-          // [Resumen de Angular](/Clases/Angular.md)
+## Clases
+
+1. [Comandos .Net Core](/Clases/ComandosNetCore.md)
+2. [Introducción a Web API](/Clases/APIsREST.md)
+3. [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
+4. [Inyección de dependencias](/Clases/InyeccionDependencias.md)
+5. [Introducción a mocking](/Clases/Mocking.md)
+6. [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
+7. [Filters](/Clases/Filters.md)
+8. [Reflection](/Clases/Reflection.md)
+9. [Angular](/Clases/Angular.md)
+
+## Ejemplos
+
+1. [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
+2. [Ejemplo de mocking](/Ejemplos/Mocking)
+3. [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
+4. [Ejemplo filters](/Ejemplos/EjemploFilters)
+5. [Ejemplos Reflection](/Ejemplos/Reflection)
+6. [Ejemplo Angular](/Ejemplos/Angular)
+
+<!-- ## Deploy
+
+- [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
+- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255) -->
+
+---
 
 
 ## Aclaración
