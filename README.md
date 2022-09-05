@@ -39,25 +39,25 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 - [Usuarios GitHub M6C](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=SOJuYz)
 
 ## Clases
-Clase 1 
-[Introducción al curso](https://disenio-de-apliaciones-2.notion.site/Clase-1-de696c45713b410b8cef853bf552401a)
-[Comandos .Net Core](/Clases/ComandosNetCore.md)
+### Clase 1 - Introducción
+- [Introducción al curso](https://disenio-de-apliaciones-2.notion.site/Clase-1-de696c45713b410b8cef853bf552401a)
+- [Comandos .Net Core](/Clases/ComandosNetCore.md)
 
-2. Mocking
-[Introducción a mocking](/Clases/Mocking.md)
-[Ejemplo de mocking](/Ejemplos/Mocking)
+### Clase 2 - Mocking
+- [Introducción a mocking](/Clases/Mocking.md)
+- [Ejemplo de mocking](/Ejemplos/Mocking)
 
-3. WebApi
-[Guía API](https://disenio-de-apliaciones-2.notion.site/APIs-REST-WebApis-fbcac11593584b66bf1f90966e3d5caf)
-[Guía creación API](https://disenio-de-apliaciones-2.notion.site/Guia-creacion-WebApi-2b4c573133a14c1fa9e755476e0b8657)
-[Guía creación API con TDD](https://disenio-de-apliaciones-2.notion.site/Guia-creaci-n-WebApi-con-TDD-4f309674402644a99ff11d7a4204ec50)
-[Practico](https://disenio-de-apliaciones-2.notion.site/Practico-5a4991d114bb4b50aafb8a6f714a170b)
+### Clase 3 - WebApi
+- [Guía API](https://disenio-de-apliaciones-2.notion.site/APIs-REST-WebApis-fbcac11593584b66bf1f90966e3d5caf)
+- [Guía creación API](https://disenio-de-apliaciones-2.notion.site/Guia-creacion-WebApi-2b4c573133a14c1fa9e755476e0b8657)
+- [Guía creación API con TDD](https://disenio-de-apliaciones-2.notion.site/Guia-creaci-n-WebApi-con-TDD-4f309674402644a99ff11d7a4204ec50)
+- [Practico](https://disenio-de-apliaciones-2.notion.site/Practico-5a4991d114bb4b50aafb8a6f714a170b)
 
-[Estructura de una request/response](Clases/Request-Response-API-example.pdf)
+- [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
 
-4. Inyección de dependencia
-[Inyección de dependencias](/Clases/InyeccionDependencias.md)
-[Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
+### Clase 4 - Inyección de dependencia
+- [Inyección de dependencias](/Clases/InyeccionDependencias.md)
+- [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
 
 
 ## Aclaración
