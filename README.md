@@ -1,6 +1,6 @@
 # Bienvenidos a Diseño de Aplicaciones 2
 
-## Introducción
+### Introducción
 
 Este repositorio tiene como objetivo servir de apoyo a las clases de tecnología de la materia Diseño de Aplicaciones 2.
 
@@ -8,7 +8,7 @@ En el van a encontrar tanto material teórico y enlaces a documentos, como códi
 
 El código que encontraran aquí va a ser construido clase a clase. Por supuesto no va a ser perfecto, así que es recomendable tomarlo con cuidado y aplicarlo de la forma más conveniente.
 
-## Docentes
+### Docentes
 
 - Nicolás Fierro [nicolas@jinkanna.com](mailto:nicolas@jinkanna.com)
 - Alexander Wieler [alexander@jinkanna.com](alexander@jinkanna.com) 
@@ -20,7 +20,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 [Notion Diseño de Aplicaciones 2](https://disenio-de-apliaciones-2.notion.site/M6C-y-M6C-1-students-643a0b65cd7946bda2696319a349ad41)
 
-## Herramientas necesarias para este curso
+### Herramientas necesarias para este curso
 - [.NET Core](https://dotnet.microsoft.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [SQL Server](https://www.microsoft.com/es-es/sql-server/sql-server-downloads) / [SQL Server para MAC](https://docs.microsoft.com/en-us/sql/linux/quickstart-install-connect-docker?view=sql-server-ver15&pivots=cs1-bash)
@@ -60,18 +60,18 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 ### Clase 6 - Filters
 
-- [Clase Filters][Filters](/Clases/Filters.md)
+- [Clase Filters](/Clases/Filters.md)
 - [Ejemplo filters](/Ejemplos/EjemploFilters)
 
 ### Clase 7 - Reflection
-- [Clase Reflection] [Reflection](/Clases/Reflection.md)
+- [Clase Reflection](/Clases/Reflection.md)
 - [Ejemplos Reflection](/Ejemplos/Reflection)
 
 
-<!-- ## Deploy
+# Guîa Deploy (2do Obligatorio)
 
 - [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
-- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255) -->
+- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255)
 
 
 ## Aclaración
