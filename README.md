@@ -16,9 +16,10 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - Ignacio Harretche [harretcheignacio@gmail.com](mailto:harretcheignacio@gmail.com)(solo M6C)
 
 
-## Notion de clases (No oficial)
+# Notion de clases (No oficial)
 
 [Notion Diseño de Aplicaciones 2](https://disenio-de-apliaciones-2.notion.site/M6C-y-M6C-1-students-643a0b65cd7946bda2696319a349ad41)
+
 ## Herramientas necesarias para este curso
 - [.NET Core](https://dotnet.microsoft.com/download)
 - [Visual Studio Code](https://code.visualstudio.com/)
@@ -31,14 +32,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 ---
 
-### Cuentas Github
-
-Es necesario para realizar el obligatorio que ingresen su usuario de github en el excel que corresponda.
-
-- [Usuarios GitHub M6C-1](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/EW4GosxFhVBLkEvwrBZfBWEBPsbpq5lkA3a06BFj2JOuKg?e=ajMQpI)
-- [Usuarios GitHub M6C](https://fi365-my.sharepoint.com/:x:/g/personal/aw177322_fi365_ort_edu_uy/ETy_lJcO_qZHo2VUIHc4LDMBXKqihEIylaxR7i_80gCI_A?e=SOJuYz)
-
-## Clases
+# Clases
 ### Clase 1 - Introducción
 - [Introducción al curso](https://disenio-de-apliaciones-2.notion.site/Clase-1-de696c45713b410b8cef853bf552401a)
 - [Comandos .Net Core](/Clases/ComandosNetCore.md)
@@ -59,6 +53,25 @@ Es necesario para realizar el obligatorio que ingresen su usuario de github en e
 ### Clase 4 - Inyección de dependencia
 - [Inyección de dependencias](/Clases/InyeccionDependencias.md)
 - [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
+
+### Clase 5 - Entity Framework Core
+- [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
+- [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
+
+### Clase 6 - Filters
+
+- [Clase Filters][Filters](/Clases/Filters.md)
+- [Ejemplo filters](/Ejemplos/EjemploFilters)
+
+### Clase 7 - Reflection
+- [Clase Reflection] [Reflection](/Clases/Reflection.md)
+- [Ejemplos Reflection](/Ejemplos/Reflection)
+
+
+<!-- ## Deploy
+
+- [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
+- [Aplicación Angular](https://aulas.ort.edu.uy/mod/resource/view.php?id=190255) -->
 
 
 ## Aclaración
