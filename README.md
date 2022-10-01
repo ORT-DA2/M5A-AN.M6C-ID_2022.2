@@ -68,6 +68,14 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - [Ejemplos Reflection](/Ejemplos/Reflection)
 
 
+### Angular
+
+- [Angular y las SPA](/Clases/Angular_y_las_SPAs.md)
+- [Componentes, Templates, Bootstrapping, Directivas, Data Binding y Pipes](/Clases/Componentes_Templates_Bootstrapping_Directivas_Data_Binding_y_Pipes.md)
+- [Custom Pipes y Service Básico](/Clases/Custom_Pipes_y_Service_Basico.md)
+- [Conceptos Avanzados](/Clases/Conceptos_avanzados.md)
+- [Http, Observables y Más sobre Routing](/Clases/Http_y_Observables_y_Mas_sobre_Routing.md)
+
 # Guîa Deploy (2do Obligatorio)
 
 - [WebAPI](https://aulas.ort.edu.uy/mod/resource/view.php?id=186907)
