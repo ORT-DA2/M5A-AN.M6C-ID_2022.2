@@ -295,3 +295,96 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 ```
 
 Es el punto de entrada de nuestra aplicacion. Compila la aplicación con el compilador JIT y arranca el módulo raíz de la aplicación (AppModule) para ejecutarse en el navegador. También puede se puede usar el compilador AOT sin cambiar ningún código agregando el indicador - aot a los comandos ng build y ng serve.
+
+
+### Introducción a módulos
+
+Los módulos como ya vimos son básicamente la forma de encapsular nuestros componentes. Toda aplicación de angular siempre tiene un módulo padre o root module que es el que nos crea por defecto y va a ser nuestro punto de entrada a la aplicación. Es decir, nosotros empezaremos a construir nuestra aplicación bajo este módulo. Luego agregaremos nuevos módulos, pero todos dentro de este gran modulo.
+
+Los módulos los vamos a definir con los decorators que ya mencionamos antes y estos se les indican a las clases, es la forma de identificarlas. Cómo podemos ver en el ejemplo.
+
+Dentro de este @NgModule tenemos:
+
+- **Declarations**: Acá se van a poner todos los componentes que va a incluir este módulo.
+- **Exports**: Acá van los componentes que queremos hacer visibles para otros módulos.
+- **Imports**: Acá van otros módulos que necesitamos usar sus clases en este.
+- **Providers**: Acá van los servicios que aporta este módulo a la colección de servicios globales.
+- **Bootstrap**: Este es el componente raíz que tiene todas las demás vistas de la aplicación. Este solo se define en el root module.
+
+La forma de crear un modulo es de la siguiente manera:
+
+`ng generate module my-first`
+
+### Introducción a componentes
+
+Como ya vimos un componente controla una parte de la pantalla.
+
+En proyecto ya tenemos el componente app, que va a ser nuestro componente de arranque y lo vamos a dejar así. En el vamos a empezar a armar la aplicación. Para este primer ejemplo no vamos a mirar el `<router-outlet>` pero es forma con la que vamos a rutear las diferentes pantallas de nuestra app. Lo veremos más adelante, no nos adelantemos.
+
+Hoy vamos a manejar una sola pantalla. Así que dejemos quieto este componente app y vamos a crearnos uno nuevo de la siguiente forma.
+
+`ng generate component my-first`
+
+Si queremos incluirlo en otro modulo debemos entrar a la carpeta de este modulo y crearlo allí directamente.
+
+Vemos que nos creo en una carpeta nuestro componente, con 4 archivos. Tenemos el template html o la vista, el componente, el estilo .css y un .spec que es la metadata que une estos 3 archivos.
+
+Nos vamos a centrar en el componente y vemos que tenemos OnInit, esto es algo que se conoce como el `ciclo de vida de los componentes` y es poder realizar acciones a la hora de crearse, modificarse o eliminarse. **Lo vamos a ver más adelante.**
+
+- **Selector** que es como vamos a llamar a este componente desde otros componentes, en otras palabras, es el tag html.
+- **templateUrl** justamente el html que vamos a renderizar con este componente.
+- **styleUrls** son los archivos css asociados a este template.
+
+Vemos también cómo tenemos al igual que en los módulos el decorator de **@component** que nos indica que es esta clase.
+
+Ahora vamos a incluir este componente en el componente app que es nuestro root. Recuerden que este lo teníamos en otro modulo. Por lo que deberemos exportar este componente.
+
+Ahora sí, ya tenemos nuestro primer componente integrado a la app. El cual nos vamos a enfocar solo en el sin importar otra parte de la pantalla.
+
+Ahora vamos a centrarnos en el componente, vamos a agregarle un array de string simple, que va a ser el que vamos a mostrar en la vista.
+
+Luego nos vamos a él template y podremos mostrar este array de esta forma simple que es llamando al atributo que nos definimos.
+
+Ahora vemos como podemos simplemente mostrar los valores, pero con ello no hacemos nada. Ahora vamos a añadirle un poco de lógica a nuestra vista.
+
+### **Directivas**
+
+Acá entran en juego las directivas, estas son funciones o acciones que podemos efectuar en nuestro html, existen muchas y están definidas en la documentación de Angular. Hoy nos vamos a enfocar en dos que son análogas a un for y un if. Que se llaman `ngFor` y `ngIf` valga la redundancia.
+
+Empezamos con el if, para esto tenemos varias formas de realizarlo, les voy a mostrar dos formas, una con if else y otra solo con if.
+
+Ahora vamos a ver el for, que utilizaremos para poder listar elementos de un array.
+
+### Bindings
+
+Así de esta forma ya sabemos como pasarle datos a nuestra vista html y también como interactuar de forma lógica en ella.
+
+Ahora vamos a ver como hacer para enviar eventos de la vista a nuestro componente. Esto lo vamos a realizar llamando a algún método en determinada acción. Por ejemplo, un click.
+
+Vemos que no solo funciona con botones y que además le podemos pasar parámetros a estos métodos.
+
+Bueno así que ya vimos como pasarle datos a la vista, como pasarle datos al componente. Ahora vamos a ver cómo lograr conectar propiedades de forma bilateral, es decir se puede modificar tanto el valor desde la vista y desde el componente.
+
+### Pipes
+
+Luego tenemos los pipes que son transformadores de estos valores. Es decir, antes de mostrar los valores en la vista los podemos transformar, para esto existen los pipes. Angular por defecto nos define muchos de estos, que vamos a ver ahora. También podemos crear los nuestros propios, esto lo vamos a dejar para más adelante.
+
+Veamos entonces 3 pipes que son para poner todas las letras en minúsculas, en mayúsculas y la primera en mayúscula. En la documentación podremos ver la lista completa de pipes que nos brinda angular.
+
+### Introducción a servicios
+
+Y por último tenemos los servicios que como vimos antes, van a ser lógica que vamos a reutilizar entre varios componentes. Un claro ejemplo de servicio puede ser por ejemplo la comunicación con la web api, o de repente alguna lógica que no sea específicamente de un componente en particular.
+
+Así que vamos a crear un servicio en nuestro módulo de la siguiente manera:
+
+`ng generate service my-service`
+
+Esto nos lo genera en una carpeta, nosotros podríamos perfectamente encapsularlo en una carpeta de servicios en nuestro modulo.
+
+Lo primero que vamos a hacer es registrar este servicio en nuestro modulo.
+
+Luego vamos a agregar una función que nos retornara el array de names cargado.
+
+Y así tenemos pronto nuestro servicio, ahora vamos a inyectarlo en nuestro componente, para esto vamos al constructor.
+
+De esta forma ya tenemos nuestro primer servicio.
