@@ -66,6 +66,11 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 ### Clase 7 - Reflection
 - [Clase Reflection](/Clases/Reflection.md)
 - [Ejemplos Reflection](/Ejemplos/Reflection)
+#### M6C-1
+- [Presentación de clase](https://fi365-my.sharepoint.com/:b:/g/personal/pb179924_fi365_ort_edu_uy/EeAbUDbvqBRFh5Jy8BJxLbUBgz9G5wdt5YRFtbM_-xJ6Hg?e=hOAGFH)
+- Código: [Inspeccionar mscorlib.dll](https://github.com/Apress/pro-csharp-5.0-.net-4.5-framework/tree/master/Code/Chapter%2015/MyTypeViewer)
+- Código: [Ejemplo ILogger](https://fi365-my.sharepoint.com/:u:/g/personal/pb179924_fi365_ort_edu_uy/EUyLZwE_FPdPkakdIteXgokB9Sl-flJ6RZyoEJikmspQRQ?e=lyD4gw)
+- Código: [Ejemplo Funciones matemáticas](https://fi365-my.sharepoint.com/:u:/g/personal/pb179924_fi365_ort_edu_uy/EfvlAEGt9BpNg1U8BfE74iYBGbMieyNuk2EKCzQ-J2c9tQ?e=kVGbJB)
 
 
 ### Angular
