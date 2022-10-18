@@ -77,10 +77,13 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 - [Angular y las SPA](/Clases/Angular_y_las_SPAs.md)
 - [Componentes, Templates, Bootstrapping, Directivas, Data Binding y Pipes](/Clases/Componentes_Templates_Bootstrapping_Directivas_Data_Binding_y_Pipes.md)
-  - [TypeScript playground](https://www.typescriptlang.org/play)
+- [TypeScript playground](https://www.typescriptlang.org/play)
 - [Custom Pipes y Service Básico](/Clases/Custom_Pipes_y_Service_Basico.md)
 - [Conceptos Avanzados](/Clases/Conceptos_avanzados.md)
 - [Http, Observables y Más sobre Routing](/Clases/Http_y_Observables_y_Mas_sobre_Routing.md)
+
+#### M5A-AN / M6C
+ - [Angular Clase 2](/Clases/Clase2_M5A_M6C.md)
 
 # Guía Deploy (2do Obligatorio)
 
