@@ -2,8 +2,8 @@
     <div class="dropdown">
         <span>Películas</span>
         <div class="dropdown-content">
-            <p class="dropdown-content-item" routerLink="/movies">Listado de películas</p>
-            <p class="dropdown-content-item" routerLink="/movies/new">Agregar película</p>
+            <p class="dropdown-content-item" [routerLink]="movieListUrl">Listado de películas</p>
+            <p class="dropdown-content-item" [routerLink]="addMovieUrl">Agregar película</p>
         </div>
     </div>
 </div>

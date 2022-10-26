@@ -6,6 +6,7 @@ import { Movie } from '../../models/movie';
 import { ICreateMovie } from '../../interfaces/create-movie.interface';
 import { MoviesService } from '../../services/movies.service';
 import { ValidateString } from '../../validators/string.validator';
+import { MOVIE_LIST_URL } from '../../utils/routes';
 
 @Component({
   selector: 'app-movie-form',
@@ -92,10 +93,11 @@ export class MovieFormComponent implements OnInit {
         return of(err);
       }),
     )
-    .subscribe((movie) => {
+    .subscribe((movie: Movie) => {
       if(!!movie?.id) {
         alert('Película creada!!');
-        this._router.navigateByUrl('/movies');
+        this.cleanForm();
+        this._router.navigateByUrl(`/${MOVIE_LIST_URL}`);
       }
     });
   }
@@ -119,10 +121,10 @@ export class MovieFormComponent implements OnInit {
           return of(err);
         }),
       )
-      .subscribe((movie) => {
+      .subscribe((movie: Movie) => {
         if(!!movie?.id) {
           alert('Película modificada!!');
-          this._router.navigateByUrl('/movies');
+          this._router.navigateByUrl(`/${MOVIE_LIST_URL}`);
         }
       });
     }
@@ -135,5 +137,14 @@ export class MovieFormComponent implements OnInit {
     this.country?.setValue(movie.country);
     this.year?.setValue(movie.year);
     this.rating?.setValue(movie.rating);
+  }
+
+  private cleanForm(): void {
+    this.name?.setValue(undefined);
+    this.category?.setValue(undefined);
+    this.director?.setValue(undefined);
+    this.country?.setValue(undefined);
+    this.year?.setValue(undefined);
+    this.rating?.setValue(undefined);
   }
 }

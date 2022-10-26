@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { LoadingService } from '../../services/loading.service';
 
@@ -7,7 +7,7 @@ import { LoadingService } from '../../services/loading.service';
   templateUrl: './loader.component.html',
   styleUrls: ['./loader.component.css']
 })
-export class LoaderComponent implements OnInit/*, OnDestroy*/ {
+export class LoaderComponent implements OnInit, OnDestroy {
   @Input() public isLoading = false;
 
   private _loadingSubscription$: Subscription | undefined;
@@ -16,7 +16,7 @@ export class LoaderComponent implements OnInit/*, OnDestroy*/ {
 
   public ngOnInit(): void {
     this._loadingSubscription$ = this.loadingScreenService.loading$
-    .subscribe(loading => this.isLoading = loading);
+    .subscribe((loading: boolean) => this.isLoading = loading);
   }
 
   public ngOnDestroy(): void {

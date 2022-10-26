@@ -4,6 +4,7 @@ import { Movie } from '../../models/movie';
 import { Router } from '@angular/router';
 import { catchError, filter, of, take } from 'rxjs';
 import { IDeleteResponse } from 'src/app/interfaces/delete-response.interface';
+import { ADD_MOVIE_URL, getMovieFormUrl } from '../../utils/routes';
 
 @Component({
   selector: 'app-movie-list',
@@ -29,19 +30,17 @@ export class MovieListComponent implements OnInit {
         return of(err);
       }),
     )
-    .subscribe(
-      (movies: Movie[]) => {
-        this.movies = movies;
-      });
+    .subscribe((movies: Movie[]) => {
+      this.setMovies(movies);
+    });
   }
 
   public navigateToAddMovie(): void {
-    console.log('going to navigate to /movies/new');
-    this._router.navigateByUrl('/movies/new');
+    this._router.navigateByUrl(`/${ADD_MOVIE_URL}`);
   }
 
   public navigateToEditMovie(movie: Movie): void {
-    this._router.navigateByUrl(`/movies/${movie.id}`);
+    this._router.navigateByUrl(`/${getMovieFormUrl(movie.id)}`);
   }
 
   public deleteMovie(movieToDelete: Movie): void {
