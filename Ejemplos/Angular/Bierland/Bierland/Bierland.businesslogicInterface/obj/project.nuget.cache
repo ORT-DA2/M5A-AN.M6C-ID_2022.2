@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "xaaOYuXHc3kfumIBLw3Lzxol1Gdu4vl+M5eDfh5s2vIUSqSJUUj1BfyYQlxMseBV0NdGpK/HIGvvlI82yQoY3A==",
+  "dgSpecHash": "uIqoMeDa2JdcrmvxpLrY0Vm/aUEfZtFBkBXSTtIunStwYqxl+TqipCzc69+I7o5bPwCP2jhJ2lawKojbkcRRvw==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Documents\\ORT\\M6B-ID-2020.2\\Codigos\\Bierland\\Bierland.businesslogicInterface\\Bierland.businesslogicInterface.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/alexanderwieler/Documents/ORT/2022/Semestre 2 M5A-N5A/Ejemplos/Angular/Bierland/Bierland/Bierland.businesslogicInterface/Bierland.businesslogicInterface.csproj",
+  "expectedPackageFiles": [
+    "/Users/alexanderwieler/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/alexanderwieler/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
