@@ -16,7 +16,7 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 - Ignacio Harretche [harretcheignacio@gmail.com](mailto:harretcheignacio@gmail.com)(solo M6C)
 
 
-# Notion de clases (No oficial)
+# Notion de clases
 
 [Notion Diseño de Aplicaciones 2](https://disenio-de-apliaciones-2.notion.site/M6C-y-M6C-1-students-643a0b65cd7946bda2696319a349ad41)
 
@@ -34,14 +34,18 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 # Clases
 ### Clase 1 - Introducción
-- [Introducción al curso](https://disenio-de-apliaciones-2.notion.site/Clase-1-de696c45713b410b8cef853bf552401a)
+- [Introducción al curso](https://www.notion.so/disenio-de-apliaciones-2/AN-M5A-students-c10008719e4745bab6c2652fa0fd223b?pvs=4)
 - [Comandos .Net Core](/Clases/ComandosNetCore.md)
 
-### Clase 2 - Mocking
+### Clase 2 - Entity Framework Core
+- [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
+- [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
+
+### Clase 3 - Mocking
 - [Introducción a mocking](/Clases/Mocking.md)
 - [Ejemplo de mocking](/Ejemplos/Mocking)
 
-### Clase 3 - WebApi
+### Clase 4 - WebApi
 - [Guía API](https://disenio-de-apliaciones-2.notion.site/APIs-REST-WebApis-fbcac11593584b66bf1f90966e3d5caf)
 - [Guía creación API](https://disenio-de-apliaciones-2.notion.site/Guia-creacion-WebApi-2b4c573133a14c1fa9e755476e0b8657)
 - [Guía creación API con TDD](https://disenio-de-apliaciones-2.notion.site/Guia-creaci-n-WebApi-con-TDD-4f309674402644a99ff11d7a4204ec50)
@@ -50,13 +54,10 @@ El código que encontraran aquí va a ser construido clase a clase. Por supuesto
 
 - [Estructura de una request/response](Clases/Request-Response-API-example.pdf)
 
-### Clase 4 - Inyección de dependencia
+### Clase 5 - Inyección de dependencia
 - [Inyección de dependencias](/Clases/InyeccionDependencias.md)
 - [Ejemplo de Web API e inyección de dependencias](/Ejemplos/WebAPI)
 
-### Clase 5 - Entity Framework Core
-- [Guia Entity Framework Core](/Clases/EntityFrameworkCore.md)
-- [Ejemplo Entity Framework Core](/Ejemplos/EntityFrameworkCore)
 
 ### Clase 6 - Filters
 
