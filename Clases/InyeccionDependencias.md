@@ -14,7 +14,7 @@ public class MoviesService : IMoviesService
 
     public MoviesService()
     {
-        movies = new new MoviesManagment();
+        movies = new MoviesManagment();
     }
 }
 ```
@@ -40,7 +40,7 @@ public class MoviesService : IMoviesService
 {
     public MoviesManagment moviesManagment;
 
-    public MoviesService(MoviesManagment moviesManagment)
+    public MoviesService(IMoviesManagment moviesManagment)
     {
         this.moviesManagment = moviesManagment;
     }
